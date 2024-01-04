@@ -1,0 +1,69 @@
+.profile-pic {
+    margin-left: 20px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.fs-4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    
+}
+body{
+    display: flex;
+    float: left;
+    scroll-behavior: smooth;
+}
+.content-container {
+    flex-grow: 1;
+    padding: 90px; /* Adjust padding based on your design preferences */
+    margin-left: 280px;
+}
+.sidebar{
+    position: fixed;
+}
+@media (max-width: 480px) {
+    .sidebar{
+        
+    }
+    
+}
+
+#section1{
+    padding-left:150px ;
+    padding-bottom: 200px ;
+    padding-top: 100px;
+
+}
+.left-align1{
+    text-align: left;
+    
+}
+.left-align2{
+    text-align: left;
+    
+}
+.left-align3{
+    text-align: left;
+    
+    justify-content: flex-start;
+    
+}
+.svg{
+    padding: 10px;
+}
+.container{
+    margin-bottom: 300px;
+}
+.Experience{
+
+}
+.cont2{
+    display:inline-flex;
+    float:left
+}
+
