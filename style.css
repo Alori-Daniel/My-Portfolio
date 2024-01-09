@@ -1,69 +1,107 @@
-.profile-pic {
-    margin-left: 20px;
-    border-radius: 100px;
-    height: 200px;
-    width: 200px;
+.content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
+    gap: 90px;
     
+    
+    
+    
+
 }
 
-.fs-4{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-top: 25px;
-    font-size: 20px;
+
+#section3{
+    display: flex;
+
+}
+
+.hello{
+    display: block;
+}
+.sec1{
+    padding: 20px;    
     
+}
+.cont5{
+    
+    width: 1296px;
+}
+@media (max-width: 694px){
+    .cont5 {
+        max-width: 516px;
+    }
+    }
+@media (max-width: 542px){
+        .cont5 {
+            max-width: 435px;
+     }
+ }
+ @media (min-width: 50px) and (max-width: 542) {
+    .cont5 {
+        max-width: 40px;
+ }
+    
+ }  
+.profile{
+    
+    border-radius: 100%;
+    
+}
+.col-lg-6{
+    margin-left: px;
+
+}
+.img{
+    flex-shrink: 1;
+    
+}
+@media (max-width:600px){
+    .profile{
+        width: 400px;
+    }
+}
+.container{
+    padding: 15px;
 }
 body{
-    display: flex;
-    float: left;
-    scroll-behavior: smooth;
-}
-.content-container {
-    flex-grow: 1;
-    padding: 90px; /* Adjust padding based on your design preferences */
-    margin-left: 280px;
-}
-.sidebar{
-    position: fixed;
-}
-@media (max-width: 480px) {
-    .sidebar{
-        
-    }
-    
-}
-
-#section1{
-    padding-left:150px ;
-    padding-bottom: 200px ;
-    padding-top: 100px;
-
-}
-.left-align1{
-    text-align: left;
-    
-}
-.left-align2{
-    text-align: left;
-    
-}
-.left-align3{
-    text-align: left;
-    
-    justify-content: flex-start;
-    
+    background-image: url(./cubes.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .svg{
     padding: 10px;
 }
-.container{
-    margin-bottom: 300px;
+.contact{
+    border-radius: 100px;
 }
-.Experience{
-
-}
-.cont2{
-    display:inline-flex;
-    float:left
+.foot{
+    border-radius: 10px;
 }
 
+.fut{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fut:hover{
+    color: #FF5733;
+    text-decoration: underline;
+
+}
+
+.nav-pills .nav-item a {
+    color: #2C80FD; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+
+.nav-pills .nav-item a:hover {
+    color: black; 
+    text-decoration:underline; 
+}
